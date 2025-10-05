@@ -66,7 +66,9 @@ function isPowerOfTwo(n) {
 /*
 Explanation:
 n > 0: This ensures that the number is positive.
-(n & (n - 1)) === 0: This checks if n is a power of two. In binary representation, a power of two has exactly one bit set to 1, and all other bits are 0. Subtracting 1 from a power of two flips all bits after the rightmost 1 bit (including the 1 bit). The bitwise AND of n and n - 1 should result in 0 if n is a power of two.
+(n & (n - 1)) === 0: This checks if n is a power of two. In binary representation, a power of two has exactly one bit set to 1, 
+and all other bits are 0. Subtracting 1 from a power of two flips all bits after the rightmost 1 bit (including the 1 bit). 
+The bitwise AND of n and n - 1 should result in 0 if n is a power of two.
 Example Execution:
 For n = 16:
 
